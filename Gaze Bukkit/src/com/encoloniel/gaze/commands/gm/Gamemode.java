@@ -126,7 +126,7 @@ public class Gamemode implements CommandExecutor {
       if (sender instanceof Player) {
        Player player = (Player) sender;
        player.setGameMode(GameMode.SPECTATOR);
-       player.sendMessage("Your gamemode is updated to Spectator Mode/");
+       player.sendMessage("Your gamemode is updated to Spectator Mode.");
        return true;
       } else {
        sender.sendMessage(ChatColor.RED + "You cannot run this from console");
