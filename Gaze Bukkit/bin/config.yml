@@ -1,0 +1,8 @@
+########################################################################
+# HELP COMMAN OUTPUT. CHANGE TO CHANGE THE OUTPUT OF THE /HELP COMMAND #
+########################################################################
+
+# Edit AFTER the "helpmessage:" to anything you would like
+
+
+helpmessage: "Configure /help from server folder /plugins/Gaze/config.yml"

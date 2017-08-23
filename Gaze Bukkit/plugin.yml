@@ -1,0 +1,50 @@
+main: com.encoloniel.gaze.Gaze_alpha
+name: Gaze
+version: r0.2 release 0.2
+author: Steelon
+description: The official NoBug release of Gaze Bukkit Plugin
+
+commands:
+  gaze:
+    usage: /gaze <help|permissions|reload>
+    description: Main gaze command
+    permission: gaze.main.*
+  help:
+    usage: /help
+    description: Customizable /help command
+  heal:
+    usage: /heal <player>
+    permission: gaze.heal
+    description: Set player's health by 20
+  feed:
+    usage: /feed <player>
+    permission: gaze.feed
+    description: Set player's hunger bar by 20
+  gms:
+    usage: /gms <player>
+    permission: gaze.gamemode.survival
+    aliases: [gm0, su, sum, m0]
+    decription: Set's a curtain player to Survival Mode
+  gmc:
+    usage: /gmc <player>
+    permission: gaze.gamemode.creative
+    aliases: [gm1, c, cm, m1]
+    description: Set's a curtain player to Creative Mode
+  gma:
+    usage: /gma <player>
+    permission: gaze.gamemode.adventure
+    aliases: [gm2, a, am, m2]
+    description: Set's a curtain player to Adventure Mode
+  gmsp:
+    usage: /gmsp <player>
+    permission: gaze.gamemode.spectator
+    aliases: [gm3, sp, sm, m3]
+    description: Set's a curtain player to Spectator Mode
+  fakejoin:
+    usage: /fakejoin <playername>
+    permission: gaze.fool.fakejoin
+    description: Does a tellraw join that is fake
+  fakeleave:
+    usage: /fakeleave <playername>
+    permission: gaze.fool.fakeleave
+    description: Does a tellraw leave that is fake
