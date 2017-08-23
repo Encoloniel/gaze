@@ -30,23 +30,31 @@ https://dev.bukkit.org/gaze/
 ## Commands/Permissions
 **gamemode switching**
 -gaze.gamemode.<gamemode name>
-```/gm<c,s,sp,a>```
+```
+/gm<c,s,sp,a>
+```
 
 **healing/feeding**
 -gaze.<heal/feed>
-```/heal
-/feed```
+```
+/heal
+/feed
+```
 
 **fool**
 -gaze.fool.<fakeleave/fakejoin>
-```/fakeleave <playername>
-/fakejoin <playername>```
+```
+/fakeleave <playername>
+/fakejoin <playername>
+```
 
 **main**
 -gaze.main.*
-```/gaze permissions
+```
+/gaze permissions
 /gaze help
-/gaze```
+/gaze
+```
 
 ## LICENSE
 
