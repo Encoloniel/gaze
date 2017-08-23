@@ -16,7 +16,7 @@ public class Fool implements CommandExecutor{
 																		sender.sendMessage(ChatColor.RED + "Please specify a name");
 																		return true;
 										}
-										Bukkit.getServer().broadcastMessage(ChatColor.YELLOW + args[0] + " joined the game.");
+										Bukkit.getServer().broadcastMessage(ChatColor.YELLOW + args[0] + " joined the game");
 										return true;
 		}
 		if (cmd.getName().equalsIgnoreCase("fakeleave") && sender.hasPermission("gaze.fool.fakeleave")) {
@@ -24,7 +24,7 @@ public class Fool implements CommandExecutor{
 											sender.sendMessage(ChatColor.RED + "Please specify a name");
 											return true;
 			}
-			Bukkit.getServer().broadcastMessage(ChatColor.YELLOW + args[0] + " left the game.");
+			Bukkit.getServer().broadcastMessage(ChatColor.YELLOW + args[0] + " left the game");
 			return true;
 }
 		return true;
