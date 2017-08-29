@@ -26,11 +26,11 @@ public class Gamemode implements CommandExecutor {
 
       Player player = (Player) sender;
       player.setGameMode(GameMode.SURVIVAL);
-      player.sendMessage("Your gamemode is updated to Survival Mode.");
+      player.sendMessage("Your gamemode is updated to"+ChatColor.ITALIC+ChatColor.GRAY+" Survival Mode");
       return true;
 
      } else {
-      sender.sendMessage(ChatColor.RED + "You cannot run this from console.");
+      
       sender.sendMessage(ChatColor.RED + "Console cannot change its own gamemode.");
       return true;
      }
@@ -44,15 +44,15 @@ public class Gamemode implements CommandExecutor {
        return true;
       }
       target.setGameMode(GameMode.SURVIVAL);
-      sender.sendMessage("Set " + target.getName() + "'s gamemode to Survival Mode.");
-      target.sendMessage("Your gamemode is updated to Survival Mode.");
+      sender.sendMessage("Set " + target.getName() + "'s gamemode to"+ChatColor.ITALIC+ChatColor.GRAY+" Survival Mode");
+      target.sendMessage("Your gamemode is updated to"+ChatColor.ITALIC+ChatColor.GRAY+" Survival Mode");
       return true;
      }
 
 
 
     }
-   }
+   
 
    //Creative Mode
    if (cmd.getName().equalsIgnoreCase("gmc")) {
@@ -62,10 +62,10 @@ public class Gamemode implements CommandExecutor {
       if (sender instanceof Player) {
        Player player = (Player) sender;
        player.setGameMode(GameMode.CREATIVE);
-       player.sendMessage("Your gamemode is updated to Creative Mode.");
+       player.sendMessage("Your gamemode is updated to"+ChatColor.ITALIC+ChatColor.GRAY+" Creative Mode");
        return true;
       } else {
-       sender.sendMessage(ChatColor.RED + "You cannot run this from console.");
+       
        sender.sendMessage(ChatColor.RED + "Console cannot change its own gamemode.");
        return true;
       }
@@ -78,8 +78,8 @@ public class Gamemode implements CommandExecutor {
        return true;
       }
       target.setGameMode(GameMode.CREATIVE);
-      sender.sendMessage("Set " + target.getName() + "'s gamemode to Creative Mode.");
-      target.sendMessage("Your gamemode is updated to Creative Mode.");
+      sender.sendMessage("Set " + target.getName() + "'s gamemode to"+ChatColor.ITALIC+ChatColor.GRAY+" Creative Mode");
+      target.sendMessage("Your gamemode is updated to"+ChatColor.ITALIC+ChatColor.GRAY+" Creative Mode");
       return true;
      }
 
@@ -94,10 +94,10 @@ public class Gamemode implements CommandExecutor {
       if (sender instanceof Player) {
        Player player = (Player) sender;
        player.setGameMode(GameMode.ADVENTURE);
-       player.sendMessage("Your gamemode is updated to Adventure Mode.");
+       player.sendMessage("Your gamemode is updated to"+ChatColor.ITALIC+ChatColor.GRAY+" Adventure Mode");
        return true;
       } else {
-       sender.sendMessage(ChatColor.RED + "You cannot run this from console.");
+       
        sender.sendMessage(ChatColor.RED + "Console cannot change its own gamemode.");
        return true;
       }
@@ -109,8 +109,8 @@ public class Gamemode implements CommandExecutor {
        return true;
       }
       target.setGameMode(GameMode.ADVENTURE);
-      sender.sendMessage("Set " + target.getName() + "'s gamemode to Adventure Mode.");
-      target.sendMessage("Your gamemode is updated to Adventure Mode.");
+      sender.sendMessage("Set " + target.getName() + "'s gamemode to"+ChatColor.ITALIC+ChatColor.GRAY+" Adventure Mode");
+      target.sendMessage("Your gamemode is updated to"+ChatColor.ITALIC+ChatColor.GRAY+" Adventure Mode");
       return true;
      }
 
@@ -126,11 +126,10 @@ public class Gamemode implements CommandExecutor {
       if (sender instanceof Player) {
        Player player = (Player) sender;
        player.setGameMode(GameMode.SPECTATOR);
-       player.sendMessage("Your gamemode is updated to Spectator Mode/");
+       player.sendMessage("Your gamemode is updated to"+ChatColor.ITALIC+ChatColor.GRAY+" Spectator Mode");
        return true;
       } else {
-       sender.sendMessage(ChatColor.RED + "You cannot run this from console");
-       sender.sendMessage(ChatColor.RED + "Console cannot change its own gamemode");
+       sender.sendMessage(ChatColor.RED + "Console cannot change its own gamemode.");
        return true;
       }
      }
@@ -141,8 +140,8 @@ public class Gamemode implements CommandExecutor {
        return true;
       }
       target.setGameMode(GameMode.SPECTATOR);
-      sender.sendMessage("Set " + target.getName() + "'s gamemode to Spectator Mode");
-      target.sendMessage("Your gamemode is updated to Spectator Mode");
+      sender.sendMessage("Set " + target.getName() + "'s gamemode to"+ChatColor.ITALIC+ChatColor.GRAY+" Spectator Mode");
+      target.sendMessage("Your gamemode is updated to "+ChatColor.ITALIC+ChatColor.GRAY+"Spectator Mode");
       return true;
      }
 
@@ -152,3 +151,4 @@ public class Gamemode implements CommandExecutor {
 
    return true;
   }
+}
