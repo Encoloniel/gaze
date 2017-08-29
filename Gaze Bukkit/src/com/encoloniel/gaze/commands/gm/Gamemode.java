@@ -52,7 +52,6 @@ public class Gamemode implements CommandExecutor {
 
 
     }
-   }
 
    //Creative Mode
    if (cmd.getName().equalsIgnoreCase("gmc")) {
@@ -152,3 +151,4 @@ public class Gamemode implements CommandExecutor {
 
    return true;
   }
+}
