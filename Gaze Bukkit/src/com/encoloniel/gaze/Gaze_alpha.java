@@ -21,7 +21,7 @@ public void onEnable() {
 	saveConfig();
 	
 	Bukkit.getServer().getLogger().info(ChatColor.GREEN + "Gaze ENABLED");
-	Bukkit.getServer().getLogger().info(ChatColor.GREEN + "You are using release 0.2 version STABLE");
+	Bukkit.getServer().getLogger().info(ChatColor.GREEN + "You are using release 0.4 version [STABLE]");
 	
 	//ALL SERVER PLUGIN EXECUTION ub0.1.1.04
 	
