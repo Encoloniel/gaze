@@ -3,13 +3,6 @@
 **Gaze Plugin**
 Gaze Plugin is a simple plugin that will make your small private Minecraft servers a whole lot more efficient and fun for all while taking up as less RAM as possible
 
-## Versions
-**Current Most Stable**
-r0.3.1-b.1.2.3
-
-**Earlier Stable Versions**
-UB-1.1.14
-
 ## What is it about?
 Gaze is a simple Bukkit Server Plugin that uses basic code to do so many things more efficiently. Gaze is a must needed: essential plugin for your server that runs bukkit/spigot. Gaze supports both Bukkit and Spigot, so if you are using any of those two, you are in luck!
 
